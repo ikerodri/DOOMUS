@@ -24,6 +24,7 @@ from compo.views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', redirecthome, name='redirecthome'),
     url(r'^home$', home, name='home'),
     url(r'^quisom$', quisom, name='quisom'),
     url(r'^registrat$', registrat, name='registrat'),
@@ -31,7 +32,7 @@ urlpatterns = [
     url(r'^penja$', novacompo, name='penja'),
     url(r'^entra', autenticacion_views.login, {'template_name':'entra.html'}, name='entra'),
     url(r'^sortir', autenticacion_views.logout, name='sortir'),
-    url(r'^freestyle$', freestyle, name='freestyle'),
+    url(r'^freestyle$', composdusuari, name='freestyle'),
     url(r'^afegir/(?P<compo_id>[0-9]+)$', afegircompo, name='afegircompo')
 
 

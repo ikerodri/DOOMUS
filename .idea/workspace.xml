@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddffce2d-4dd2-4ebc-8fab-78d04d898df3" name="Default Changelist" comment="" />
+    <list default="true" id="ddffce2d-4dd2-4ebc-8fab-78d04d898df3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doomus/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doomus/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doomus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Doomus/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainDoomus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainDoomus/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/compo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Descobreix.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/descobreix.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Entra.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/entra.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Quisom.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/quisom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Registrat.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/registrat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/freestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/freestyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/freestyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/freestyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Descobreix.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/descobreix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Entra.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Freestyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/freestyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Penja.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/penja.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Quisom.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/quisom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registrat.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registrat.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,44 +32,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usuari/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usuari/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Doomus/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-              <folding>
-                <element signature="e#640#681#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,9 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>butt</find>
-      <find>imatge</find>
-      <find>seleccio</find>
       <find>h1</find>
       <find>searchbar</find>
       <find>containercom</find>
@@ -75,14 +55,11 @@
       <find>filtratge</find>
       <find>titol</find>
       <find>h4</find>
-      <find>select</find>
       <find>titolcompo</find>
       <find>col-7 selectt</find>
       <find>iconss col-3</find>
       <find>contenidoricons</find>
-      <find>image</find>
       <find>iconss</find>
-      <find>quart</find>
       <find>quart</find>
       <find>img</find>
       <find>selectt</find>
@@ -90,9 +67,15 @@
       <find>containericonstotal</find>
       <find>tercer</find>
       <find>comptotal</find>
-      <find>btn</find>
-      <find>button</find>
       <find>pause</find>
+      <find>form</find>
+      <find>select</find>
+      <find>btn</find>
+      <find>btn-change3</find>
+      <find>button</find>
+      <find>id</find>
+      <find>image</find>
+      <find>registra</find>
     </findStrings>
     <replaceStrings>
       <replace>class=&quot;col-10 titolcompo</replace>
@@ -101,21 +84,19 @@
       <replace>iconss</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/usuari/admin.py" />
         <option value="$PROJECT_DIR$/compo/admin.py" />
-        <option value="$PROJECT_DIR$/Doomus/settings.py" />
-        <option value="$PROJECT_DIR$/compo/views.py" />
         <option value="$PROJECT_DIR$/compo/models.py" />
-        <option value="$PROJECT_DIR$/MainDoomus/views.py" />
         <option value="$PROJECT_DIR$/usuari/forms.py" />
         <option value="$PROJECT_DIR$/static/entra.js" />
         <option value="$PROJECT_DIR$/compo/forms.py" />
         <option value="$PROJECT_DIR$/static/descobreix.js" />
-        <option value="$PROJECT_DIR$/usuari/models.py" />
-        <option value="$PROJECT_DIR$/static/freestyle.js" />
         <option value="$PROJECT_DIR$/templates/Quisom.html" />
         <option value="$PROJECT_DIR$/templates/Entra.html" />
         <option value="$PROJECT_DIR$/static/Entra.css" />
@@ -125,13 +106,21 @@
         <option value="$PROJECT_DIR$/templates/Penja.html" />
         <option value="$PROJECT_DIR$/static/penja.css" />
         <option value="$PROJECT_DIR$/static/Descobreix.css" />
-        <option value="$PROJECT_DIR$/templates/Freestyle.html" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/static/home.css" />
+        <option value="$PROJECT_DIR$/compo/views.py" />
+        <option value="$PROJECT_DIR$/usuari/models.py" />
         <option value="$PROJECT_DIR$/static/freestyle.css" />
+        <option value="$PROJECT_DIR$/Doomus/settings.py" />
+        <option value="$PROJECT_DIR$/MainDoomus/views.py" />
         <option value="$PROJECT_DIR$/Doomus/urls.py" />
+        <option value="$PROJECT_DIR$/templates/Freestyle.html" />
         <option value="$PROJECT_DIR$/templates/Descobreix.html" />
+        <option value="$PROJECT_DIR$/static/freestyle.js" />
         <option value="$PROJECT_DIR$/usuari/views.py" />
+        <option value="$PROJECT_DIR$/templates/descobreix.html" />
+        <option value="$PROJECT_DIR$/templates/registrat.html" />
+        <option value="$PROJECT_DIR$/templates/freestyle.html" />
       </list>
     </option>
   </component>
@@ -141,11 +130,13 @@
     <option name="width" value="697" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +147,7 @@
             <path>
               <item name="Doomus" type="b2602c69:ProjectViewProjectNode" />
               <item name="Doomus" type="462c0819:PsiDirectoryNode" />
-              <item name="Doomus" type="462c0819:PsiDirectoryNode" />
+              <item name="compo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Doomus" type="b2602c69:ProjectViewProjectNode" />
@@ -168,20 +159,15 @@
               <item name="Doomus" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Doomus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Doomus" type="462c0819:PsiDirectoryNode" />
-              <item name="usuari" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lycu(1)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -244,18 +230,18 @@
       <workItem from="1558962101191" duration="30916000" />
       <workItem from="1559072377548" duration="743000" />
       <workItem from="1559136715846" duration="15741000" />
-      <workItem from="1559221198855" duration="702000" />
+      <workItem from="1559221198855" duration="21004000" />
+      <workItem from="1559315585667" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81973000" />
+    <option name="totallyTimeSpent" value="102603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -269,7 +255,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.1920123" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29646698" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -304,13 +290,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/prova.html" />
     <entry file="file://$PROJECT_DIR$/templates/Bienvenida.html" />
-    <entry file="file://$PROJECT_DIR$/Doomus/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="131" column="27" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -320,26 +299,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Doomus/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainDoomus/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/usuari/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -371,79 +330,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/compo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/descobreix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/freestyle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/prova.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Entra.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="218" selection-start-line="218" selection-end-line="463" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Registrat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="63" column="60" lean-forward="true" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Quisom.html">
+    <entry file="file://$PROJECT_DIR$/templates/quisom.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-748">
           <caret line="16" column="130" selection-start-line="16" selection-start-column="130" selection-end-line="16" selection-end-column="130" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/Registrat.css">
+    <entry file="file://$PROJECT_DIR$/static/registrat.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="231" selection-start-line="231" selection-end-line="231" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Penja.html">
+    <entry file="file://$PROJECT_DIR$/templates/penja.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="79" column="60" lean-forward="true" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Entra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="60" column="56" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Quisom.css">
+    <entry file="file://$PROJECT_DIR$/static/quisom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="194" selection-start-line="194" selection-end-line="194" selection-end-column="48" />
@@ -457,14 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Freestyle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/Descobreix.css">
+    <entry file="file://$PROJECT_DIR$/static/descobreix.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="601" selection-start-line="601" selection-end-line="601" selection-end-column="48" />
@@ -478,20 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/freestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="384" column="5" lean-forward="true" selection-start-line="384" selection-start-column="5" selection-end-line="384" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Descobreix.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="169" column="53" lean-forward="true" selection-start-line="169" selection-start-column="53" selection-end-line="169" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -499,33 +389,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usuari/models.py">
+    <entry file="file://$PROJECT_DIR$/compo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="56">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/entra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="218" selection-start-line="218" selection-end-line="463" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/entra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuari/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/descobreix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Doomus/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="635" column="17" selection-start-line="635" selection-start-column="17" selection-end-line="635" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Doomus/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        <state relative-caret-position="119">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
           <folding>
             <element signature="e#640#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usuari/views.py">
+    <entry file="file://$PROJECT_DIR$/MainDoomus/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="34">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freestyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuari/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/descobreix.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="128" column="47" lean-forward="true" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/freestyle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registrat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
