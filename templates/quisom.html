@@ -12,123 +12,123 @@
     <link rel="stylesheet" href="{% static "quisom.css" %}">
 </head>
 <body>
-    {% block Header %}
-        <nav class="navbar navbar-expand-lg textnav">
-          <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+{% block Header %}
+    <nav class="navbar navbar-expand-lg textnav">
+        <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="{% url 'home' %}">Inici</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
-              </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Inici</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
+                </li>
             </ul>
             {% if request.user.is_authenticated %}
-                   <ul class="navbar-nav mr-right">
-                   <li class="nav-item">
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'freestyle' %}">Freestyle</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'penja' %}">Penja</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'sortir' %}">Sortir</a>
-                      </li>
-                   </ul>
-              {% else %}
-                  <ul class="navbar-nav mr-right">
-                      <li class="nav-item">
+                    </li>
+                </ul>
+            {% else %}
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'registrat' %}">Registra't</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'entra' %}">Entra</a>
-                      </li>
-                   </ul>
-              {% endif %}
-          </div>
-        </nav>
-    {% endblock %}
-
-    <div class="mybody">
-        <div class="containerbloc col-10 row">
-            <div class="escrit1 col-8">
-                <div class="Titol"> <h1>Doomus</h1> </div>
-                <div class="Text">Qué és Doomus? Es tracta d'una xarxa social on cada usuari pot penjar les seves composicions, utilitzar les de altres usuaris i crear de noves utilitzant components de diferents persones.</div>
-            </div>
-            <div class="imatge col-4"><img src="../../static/Teclat.jpg"></div>
+                    </li>
+                </ul>
+            {% endif %}
         </div>
-        <div class="containerbloc col-10 row">
-            <div class="imatge col-4"><img src="../../static/Teclat.jpg"> </div>
-            <div class="escrit1 col-8">
-                <div class="Titol2"> <h1>Qui som?</h1> </div>
-                <div class="Text2">El meu nom és Iker Rodríguez, actualment tinc 20 anys i com a projecte de final de curs m'he propossat fer aquesta Web. Des de ben petit m'han interessat tant la música com el disseny de pàgines web; Amb aquest projecte he pogut unificar aquests dos conceptes.</div>
-            </div>
+    </nav>
+{% endblock %}
 
+<div class="mybody">
+    <div class="containerbloc col-10 row">
+        <div class="escrit1 col-8">
+            <div class="Titol"> <h1>Doomus</h1> </div>
+            <div class="Text">Qué és Doomus? Es tracta d'una xarxa social on cada usuari pot penjar les seves composicions, utilitzar les de altres usuaris i crear de noves utilitzant components de diferents persones.</div>
         </div>
+        <div class="imatge col-4"><img src="../../static/Teclat.jpg"></div>
     </div>
+    <div class="containerbloc col-10 row">
+        <div class="imatge col-4"><img src="../../static/Teclat.jpg"> </div>
+        <div class="escrit1 col-8">
+            <div class="Titol2"> <h1>Qui som?</h1> </div>
+            <div class="Text2">El meu nom és Iker Rodríguez, actualment tinc 20 anys i com a projecte de final de curs m'he propossat fer aquesta Web. Des de ben petit m'han interessat tant la música com el disseny de pàgines web; Amb aquest projecte he pogut unificar aquests dos conceptes.</div>
+        </div>
+
+    </div>
+</div>
 
 
-    {% block footer %}
-        <div class="mifooter">
+{% block footer %}
+    <div class="mifooter">
         {% if request.user.is_authenticated %}
-                   <table>
-              <tr class="navtext">
-                <td colspan="2" id="textnav">Pots visitar</td>
-                <td colspan="2" id="textnav">Xarxes</td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
-                <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
-                <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
-                <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
-                <td><a class="nav-link" href="{% url 'penja' %}">Penja</a></td>
-                  <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
-                  <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'sortir' %}">Sortir</a></td>
-                  <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
+            <table>
+                <tr class="navtext">
+                    <td colspan="2" id="textnav">Pots visitar</td>
+                    <td colspan="2" id="textnav">Xarxes</td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
+                    <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
+                    <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
+                    <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
+                    <td><a class="nav-link" href="{% url 'penja' %}">Penja</a></td>
+                    <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
+                    <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'sortir' %}">Sortir</a></td>
+                    <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
 
-              </tr>
+                </tr>
             </table>
-              {% else %}
-                  <table>
-              <tr class="navtext">
-                <td colspan="2" id="textnav">Pots visitar</td>
-                <td colspan="2" id="textnav">Xarxes</td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
-                <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
-                <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
-                <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
-                <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
-                  <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
-                  <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
-                  <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
+        {% else %}
+            <table>
+                <tr class="navtext">
+                    <td colspan="2" id="textnav">Pots visitar</td>
+                    <td colspan="2" id="textnav">Xarxes</td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
+                    <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
+                    <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
+                    <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
+                    <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
+                    <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
+                    <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
+                    <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
 
-              </tr>
+                </tr>
             </table>
         {% endif %}
 
-        </div>
-    {% endblock %}
+    </div>
+{% endblock %}
 </body>
 </html>

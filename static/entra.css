@@ -21,9 +21,9 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: orange;
-  box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
-  outline: 0 none;
+    border-color: orange;
+    box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
+    outline: 0 none;
 }
 
 .mybody{
@@ -38,8 +38,8 @@ input[type="color"]:focus,
     src: url("Quenda-Medium.otf");
 }
 ::placeholder {
-        font-family: "basicmin";
-    }
+    font-family: "basicmin";
+}
 
 
 .textnav{
@@ -65,10 +65,10 @@ nav{
     padding-top: 0;
 }
 .navbar a:hover{
-     color: orange!important;
+    color: orange!important;
 }
 .navbar a{
-     color: white!important;
+    color: white!important;
 }
 .p{
     border-style: solid;
@@ -78,11 +78,11 @@ nav{
 .mifooter {
     margin-top: 4%;
     font-family: "basic";
-   width: 100%;
-   background-color: black;
+    width: 100%;
+    background-color: black;
     opacity: 0.8;
-   color: white !important;
-   text-align: center;
+    color: white !important;
+    text-align: center;
 }
 table{
     width: 100%;
@@ -102,12 +102,12 @@ table{
     color: orange;
 }
 .carousel-item {
-  height: 500px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .micarousel{
     border-style: solid;

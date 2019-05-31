@@ -12,59 +12,59 @@
     <link rel="stylesheet" href="{% static "home.css"%}">
 </head>
 <body>
-    {% block Header %}
-        <nav class="navbar navbar-expand-lg textnav">
-          <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+{% block Header %}
+    <nav class="navbar navbar-expand-lg textnav">
+        <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="{% url 'home' %}">Inici</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
-              </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Inici</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
+                </li>
             </ul>
-              {% if request.user.is_authenticated %}
-                   <ul class="navbar-nav mr-right">
-                       <li class="nav-item">
+            {% if request.user.is_authenticated %}
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'freestyle' %}">Freestyle</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'penja' %}">Penja</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'sortir' %}">Sortir</a>
-                      </li>
-                   </ul>
-              {% else %}
-                  <ul class="navbar-nav mr-right">
-                      <li class="nav-item">
+                    </li>
+                </ul>
+            {% else %}
+                <ul class="navbar-nav mr-right">
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'registrat' %}">Registra't</a>
-                      </li>
-                      <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{% url 'entra' %}">Entra</a>
-                      </li>
-                   </ul>
-              {% endif %}
+                    </li>
+                </ul>
+            {% endif %}
 
-          </div>
-        </nav>
-    {% endblock %}
+        </div>
+    </nav>
+{% endblock %}
 
-    <div class="mybody">
+<div class="mybody">
 
 
-       <div class="titolinici">
-           <h1 class="titol">DOOMUS</h1>
-           <h4 class="subtitol">Composa, descobreix i publica</h4>
-       </div>
+    <div class="titolinici">
+        <h1 class="titol">DOOMUS</h1>
+        <h4 class="subtitol">Composa, descobreix i publica</h4>
+    </div>
 
 
 
@@ -72,111 +72,111 @@
 
 
     <div id="carouselExampleIndicators" class="carousel slide col-10 micarousel" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active slide1" >
-        <a href="https://guitarrasinlimites.com/como-componer-canciones/como-componer-canciones-5-aspectos-a-tener-en-cuenta/"><div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Cursos de composició a guitarra</h2>
-          <p class="lead">La página guitarrasinlimites ens ofereix un curs de composició a guitarra per a principiants</p>
-        </div></a>
-      </div>
-      <!-- Slide Two - Set the background image for this slide in the line below -->
-      <div class="carousel-item slide2">
-        <a href="http://www.productormusical.es/category/descargas/instrumentos-virtuales/"> <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Instruments virtuals</h2>
-          <p class="lead">Aquesta pàgina ens dona una llista de instruments virtuals gratuits</p>
-        </div></a>
-      </div>
-      <!-- Slide Three - Set the background image for this slide in the line below -->
-      <div class="carousel-item slide3">
-          <a href = "{% url 'registrat' %}">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4">Encara no tens compte?</h2>
-          <p class="lead">Pots crear un compte a l'apartat "Registra't", o fent click a aquest slider</p>
-        </div></a>
-      </div>
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item active slide1" >
+                <a href="https://guitarrasinlimites.com/como-componer-canciones/como-componer-canciones-5-aspectos-a-tener-en-cuenta/"><div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Cursos de composició a guitarra</h2>
+                    <p class="lead">La página guitarrasinlimites ens ofereix un curs de composició a guitarra per a principiants</p>
+                </div></a>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item slide2">
+                <a href="http://www.productormusical.es/category/descargas/instrumentos-virtuales/"> <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Instruments virtuals</h2>
+                    <p class="lead">Aquesta pàgina ens dona una llista de instruments virtuals gratuits</p>
+                </div></a>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item slide3">
+                <a href = "{% url 'registrat' %}">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">Encara no tens compte?</h2>
+                        <p class="lead">Pots crear un compte a l'apartat "Registra't", o fent click a aquest slider</p>
+                    </div></a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-  </div>
 
 
 
 
-  <div class="containercontacte col-9">
-      <h1>Contacta amb nosaltres</h1>
-    <input type="email" class="form-control componentcontacte" id="exampleFormControlInput1" placeholder="Correu">
-    <input type="email" class="form-control componentcontacte" id="exampleFormControlInput1" placeholder="Nom i Cognoms">
-    <textarea class="form-control componentcontacte" id="exampleFormControlTextarea1" rows="3" placeholder="Escriu el teu missatge"></textarea>
-    <button class="btn-change2">Enviar</button>
-  </div>
+    <div class="containercontacte col-9">
+        <h1>Contacta amb nosaltres</h1>
+        <input type="email" class="form-control componentcontacte" id="exampleFormControlInput1" placeholder="Correu">
+        <input type="email" class="form-control componentcontacte" id="exampleFormControlInput1" placeholder="Nom i Cognoms">
+        <textarea class="form-control componentcontacte" id="exampleFormControlTextarea1" rows="3" placeholder="Escriu el teu missatge"></textarea>
+        <button class="btn-change2">Enviar</button>
+    </div>
 
 </div>
 
 
-    {% block footer %}
-        <div class="mifooter">
-           {% if request.user.is_authenticated %}
-                   <table>
-              <tr class="navtext">
-                <td colspan="2" id="textnav">Pots visitar</td>
-                <td colspan="2" id="textnav">Xarxes</td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
-                <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
-                <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
-                <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
-                <td><a class="nav-link" href="{% url 'penja' %}">Penja</a></td>
-                  <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
-                  <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'sortir' %}">Sortir</a></td>
-                  <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
+{% block footer %}
+    <div class="mifooter">
+        {% if request.user.is_authenticated %}
+            <table>
+                <tr class="navtext">
+                    <td colspan="2" id="textnav">Pots visitar</td>
+                    <td colspan="2" id="textnav">Xarxes</td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
+                    <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
+                    <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
+                    <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
+                    <td><a class="nav-link" href="{% url 'penja' %}">Penja</a></td>
+                    <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
+                    <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'sortir' %}">Sortir</a></td>
+                    <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
 
-              </tr>
+                </tr>
             </table>
-              {% else %}
-                  <table>
-              <tr class="navtext">
-                <td colspan="2" id="textnav">Pots visitar</td>
-                <td colspan="2" id="textnav">Xarxes</td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
-                <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
-                <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
-                <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
-                <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
-                  <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
-                  <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
-                  <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
+        {% else %}
+            <table>
+                <tr class="navtext">
+                    <td colspan="2" id="textnav">Pots visitar</td>
+                    <td colspan="2" id="textnav">Xarxes</td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
+                    <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
+                    <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
+                    <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
+                    <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
+                    <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
+                    <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
+                    <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
 
-              </tr>
+                </tr>
             </table>
         {% endif %}
-        </div>
-    {% endblock %}
+    </div>
+{% endblock %}
 </body>
 </html>

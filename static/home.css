@@ -1,201 +1,201 @@
 @media (min-width: 600px) and (max-width: 2000px) {
     body{
-    background-image: url(Teclat.jpg);
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
-textarea:focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus {
-    border-color: orange;
-    box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
-    outline: 0 none;
-}
+        background-image: url(Teclat.jpg);
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: orange;
+        box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
+        outline: 0 none;
+    }
 
-.mybody{
-    min-height: calc(100vh - 123px);
-}
-@font-face{
-    font-family: 'basic';
-    src: url("Juicebox.otf");
-}
-@font-face{
-    font-family: 'basicmin';
-    src: url("Quenda-Medium.otf");
-}
-::placeholder {
-    font-family: "basicmin";
-}
+    .mybody{
+        min-height: calc(100vh - 123px);
+    }
+    @font-face{
+        font-family: 'basic';
+        src: url("Juicebox.otf");
+    }
+    @font-face{
+        font-family: 'basicmin';
+        src: url("Quenda-Medium.otf");
+    }
+    ::placeholder {
+        font-family: "basicmin";
+    }
 
 
-.textnav{
-    color: orange;
-    font-family: "basic";
-    font-size: 20px;
-}
-#textnav{
-    color: orange;
-    font-family: "basic";
-    font-size: 20px;
-}
-.titlenav{
-    font-size: 40px;
-}
-nav{
-    background-color: black;
-}
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 70px;
-    height: 70px;
-    padding-top: 0;
-}
-.navbar a:hover{
-    color: orange!important;
-}
-.navbar a{
-    color: white!important;
-}
-.p{
-    border-style: solid;
-    border-width: 5px;
-    height: 200px;
-}
-.mifooter {
-    margin-top: 4%;
-    font-family: "basic";
-    width: 100%;
-    background-color: black;
-    opacity: 0.8;
-    color: white !important;
-    text-align: center;
-}
-table{
-    width: 100%;
-    color: white;
-    font-size: 18px;
-}
-.nav-link{
-    color: white !important;
-}
-.nav-link:hover{
-    color: orange !important;
-}
-.iconos{
-    color: white;
-}
-.iconos:hover{
-    color: orange;
-}
-.titolinici{
-    margin-top: 6%;
-    margin-bottom: 8%;
-}
-.titol{
-    text-align: center;
-    font-family: "basic";
-    font-size: 200px;
-    color: white;
-}
-.subtitol{
-    margin-top: -60px;
-    text-align: center;
-    font-family: "basic";
-    font-size: 40px;
-    color: orange;
-}
-.carousel-item {
-    height: 500px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.micarousel{
-    border-style: solid;
-    border-color: orange;
-    border-left: orange;
-    border-right: orange;
-    font-family: "basicmin";
-    margin: auto;
-    margin-top: 3%;
-}
-.slide1{
-    background-image: url("Guitar.jpg");
-}
-.slide2{
-    background-image: url("Background1.jpg");
-}
-.slide3{
-    background-image: url("Registrat.jpg");
-}
+    .textnav{
+        color: orange;
+        font-family: "basic";
+        font-size: 20px;
+    }
+    #textnav{
+        color: orange;
+        font-family: "basic";
+        font-size: 20px;
+    }
+    .titlenav{
+        font-size: 40px;
+    }
+    nav{
+        background-color: black;
+    }
+    .navbar-brand,
+    .navbar-nav li a {
+        line-height: 70px;
+        height: 70px;
+        padding-top: 0;
+    }
+    .navbar a:hover{
+        color: orange!important;
+    }
+    .navbar a{
+        color: white!important;
+    }
+    .p{
+        border-style: solid;
+        border-width: 5px;
+        height: 200px;
+    }
+    .mifooter {
+        margin-top: 4%;
+        font-family: "basic";
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        color: white !important;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        color: white;
+        font-size: 18px;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .nav-link:hover{
+        color: orange !important;
+    }
+    .iconos{
+        color: white;
+    }
+    .iconos:hover{
+        color: orange;
+    }
+    .titolinici{
+        margin-top: 6%;
+        margin-bottom: 8%;
+    }
+    .titol{
+        text-align: center;
+        font-family: "basic";
+        font-size: 200px;
+        color: white;
+    }
+    .subtitol{
+        margin-top: -60px;
+        text-align: center;
+        font-family: "basic";
+        font-size: 40px;
+        color: orange;
+    }
+    .carousel-item {
+        height: 500px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .micarousel{
+        border-style: solid;
+        border-color: orange;
+        border-left: orange;
+        border-right: orange;
+        font-family: "basicmin";
+        margin: auto;
+        margin-top: 3%;
+    }
+    .slide1{
+        background-image: url("Guitar.jpg");
+    }
+    .slide2{
+        background-image: url("Background1.jpg");
+    }
+    .slide3{
+        background-image: url("Registrat.jpg");
+    }
 
-.containercontacte{
-    border-style: solid;
-    border-color: orange;
-    padding: 2%;
-    background: rgb(0, 0, 0, 0.7);
-    margin: auto;
-    margin-top: 8%;
-}
-.componentcontacte{
-    opacity: 1;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 2%;
-    width: 50%;
-    text-align: center;
-}
-.btn-change2{
-    text-align: center;
-    font-family: "basicmin";
-    font-size: 20px;
-    height: 50px;
-    width: 30%;
-    background: orange ;
-    margin: auto;
-    margin-left: 35%;
-    border-radius: 20px;
-    border:0px;
-    color: black;
-    -webkit-transition-duration: 0.4s;
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transform-origin: 0 0;
-    box-shadow:0px 0px 0 100px white inset;
-}
-.btn-change2:hover{
-    -webkit-box-shadow:0px 0px 0 0px wheat inset;
-    -webkit-transform: scale(1);
-}
-h1{
-    font-family: "basic";
-    color: orange;
-    margin-bottom: 2%;
-    text-align: center;
-    font-size: 49px;
-}
-h2{
-    color: orange !important;
-}
-.logoimatge{
-    width: 150px;
-}
+    .containercontacte{
+        border-style: solid;
+        border-color: orange;
+        padding: 2%;
+        background: rgb(0, 0, 0, 0.7);
+        margin: auto;
+        margin-top: 8%;
+    }
+    .componentcontacte{
+        opacity: 1;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 2%;
+        width: 50%;
+        text-align: center;
+    }
+    .btn-change2{
+        text-align: center;
+        font-family: "basicmin";
+        font-size: 20px;
+        height: 50px;
+        width: 30%;
+        background: orange ;
+        margin: auto;
+        margin-left: 35%;
+        border-radius: 20px;
+        border:0px;
+        color: black;
+        -webkit-transition-duration: 0.4s;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transform-origin: 0 0;
+        box-shadow:0px 0px 0 100px white inset;
+    }
+    .btn-change2:hover{
+        -webkit-box-shadow:0px 0px 0 0px wheat inset;
+        -webkit-transform: scale(1);
+    }
+    h1{
+        font-family: "basic";
+        color: orange;
+        margin-bottom: 2%;
+        text-align: center;
+        font-size: 49px;
+    }
+    h2{
+        color: orange !important;
+    }
+    .logoimatge{
+        width: 150px;
+    }
 
 }
 
@@ -213,202 +213,202 @@ h2{
 
 @media (min-width: 0px) and (max-width: 600px) {
     body{
-    background-image: url(Teclat.jpg);
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
-textarea:focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus {
-    border-color: orange;
-    box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
-    outline: 0 none;
-}
+        background-image: url(Teclat.jpg);
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    textarea:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: orange;
+        box-shadow: 0 1px 1px orange inset, 0 0 8px orange;
+        outline: 0 none;
+    }
 
-.mybody{
-    min-height: calc(100vh - 123px);
-}
-@font-face{
-    font-family: 'basic';
-    src: url("Juicebox.otf");
-}
-@font-face{
-    font-family: 'basicmin';
-    src: url("Quenda-Medium.otf");
-}
-::placeholder {
-    font-family: "basicmin";
-}
+    .mybody{
+        min-height: calc(100vh - 123px);
+    }
+    @font-face{
+        font-family: 'basic';
+        src: url("Juicebox.otf");
+    }
+    @font-face{
+        font-family: 'basicmin';
+        src: url("Quenda-Medium.otf");
+    }
+    ::placeholder {
+        font-family: "basicmin";
+    }
 
 
-.textnav{
-    color: orange;
-    font-family: "basic";
-    font-size: 20px;
-}
-#textnav{
-    color: orange;
-    font-family: "basic";
-    font-size: 20px;
-}
-.titlenav{
-    font-size: 40px;
-}
-nav{
-    background-color: black;
-}
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 70px;
-    height: 70px;
-    padding-top: 0;
-}
-.navbar a:hover{
-    color: orange!important;
-}
-.navbar a{
-    color: white!important;
-}
-.p{
-    border-style: solid;
-    border-width: 5px;
-    height: 200px;
-}
-.mifooter {
-    margin-top: 4%;
-    font-family: "basic";
-    width: 100%;
-    background-color: black;
-    opacity: 0.8;
-    color: white !important;
-    text-align: center;
-}
-table{
-    width: 100%;
-    color: white;
-    font-size: 18px;
-}
-.nav-link{
-    color: white !important;
-}
-.nav-link:hover{
-    color: orange !important;
-}
-.iconos{
-    color: white;
-}
-.iconos:hover{
-    color: orange;
-}
-.titolinici{
-    margin-top: 6%;
-    margin-bottom: 8%;
-}
-.titol{
-    text-align: center;
-    font-family: "basic";
-    font-size: 100px;
-    color: white;
-}
-.subtitol{
-    margin-top: -30px;
-    text-align: center;
-    font-family: "basic";
-    font-size: 30px;
-    color: orange;
-}
-.carousel-item {
-    height: 500px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.micarousel{
-    border-style: solid;
-    border-color: orange;
-    border-left: orange;
-    border-right: orange;
-    font-family: "basicmin";
-    margin: auto;
-    margin-top: 3%;
-}
-.slide1{
-    background-image: url("Guitar.jpg");
-}
-.slide2{
-    background-image: url("Background1.jpg");
-}
-.slide3{
-    background-image: url("Registrat.jpg");
-}
+    .textnav{
+        color: orange;
+        font-family: "basic";
+        font-size: 20px;
+    }
+    #textnav{
+        color: orange;
+        font-family: "basic";
+        font-size: 20px;
+    }
+    .titlenav{
+        font-size: 40px;
+    }
+    nav{
+        background-color: black;
+    }
+    .navbar-brand,
+    .navbar-nav li a {
+        line-height: 70px;
+        height: 70px;
+        padding-top: 0;
+    }
+    .navbar a:hover{
+        color: orange!important;
+    }
+    .navbar a{
+        color: white!important;
+    }
+    .p{
+        border-style: solid;
+        border-width: 5px;
+        height: 200px;
+    }
+    .mifooter {
+        margin-top: 4%;
+        font-family: "basic";
+        width: 100%;
+        background-color: black;
+        opacity: 0.8;
+        color: white !important;
+        text-align: center;
+    }
+    table{
+        width: 100%;
+        color: white;
+        font-size: 18px;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .nav-link:hover{
+        color: orange !important;
+    }
+    .iconos{
+        color: white;
+    }
+    .iconos:hover{
+        color: orange;
+    }
+    .titolinici{
+        margin-top: 6%;
+        margin-bottom: 8%;
+    }
+    .titol{
+        text-align: center;
+        font-family: "basic";
+        font-size: 100px;
+        color: white;
+    }
+    .subtitol{
+        margin-top: -30px;
+        text-align: center;
+        font-family: "basic";
+        font-size: 30px;
+        color: orange;
+    }
+    .carousel-item {
+        height: 500px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .micarousel{
+        border-style: solid;
+        border-color: orange;
+        border-left: orange;
+        border-right: orange;
+        font-family: "basicmin";
+        margin: auto;
+        margin-top: 3%;
+    }
+    .slide1{
+        background-image: url("Guitar.jpg");
+    }
+    .slide2{
+        background-image: url("Background1.jpg");
+    }
+    .slide3{
+        background-image: url("Registrat.jpg");
+    }
 
-.containercontacte{
-    border-style: solid;
-    border-color: orange;
-    padding: 2%;
-    background: rgb(0, 0, 0, 0.7);
-    margin: auto;
-    margin-top: 8%;
-}
-.componentcontacte{
-    opacity: 1;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 2%;
-    width: 50%;
-    text-align: center;
-}
-.btn-change2{
-    text-align: center;
-    font-family: "basicmin";
-    font-size: 15px;
-    height: 50px;
-    width: 30%;
-    background: orange ;
-    margin: auto;
-    margin-left: 35%;
-    border-radius: 20px;
-    border:0px;
-    color: black;
-    -webkit-transition-duration: 0.4s;
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transform-origin: 0 0;
-    box-shadow:0px 0px 0 100px white inset;
-}
-.btn-change2:hover{
-    -webkit-box-shadow:0px 0px 0 0px wheat inset;
-    -webkit-transform: scale(1);
-}
-h1{
-    font-family: "basic";
-    color: orange;
-    margin-bottom: 2%;
-    text-align: center;
-    font-size: 49px;
-}
-h2{
-    color: orange !important;
-}
-.logoimatge{
-    width: 150px;
-}
+    .containercontacte{
+        border-style: solid;
+        border-color: orange;
+        padding: 2%;
+        background: rgb(0, 0, 0, 0.7);
+        margin: auto;
+        margin-top: 8%;
+    }
+    .componentcontacte{
+        opacity: 1;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 2%;
+        width: 50%;
+        text-align: center;
+    }
+    .btn-change2{
+        text-align: center;
+        font-family: "basicmin";
+        font-size: 15px;
+        height: 50px;
+        width: 30%;
+        background: orange ;
+        margin: auto;
+        margin-left: 35%;
+        border-radius: 20px;
+        border:0px;
+        color: black;
+        -webkit-transition-duration: 0.4s;
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transform-origin: 0 0;
+        box-shadow:0px 0px 0 100px white inset;
+    }
+    .btn-change2:hover{
+        -webkit-box-shadow:0px 0px 0 0px wheat inset;
+        -webkit-transform: scale(1);
+    }
+    h1{
+        font-family: "basic";
+        color: orange;
+        margin-bottom: 2%;
+        text-align: center;
+        font-size: 49px;
+    }
+    h2{
+        color: orange !important;
+    }
+    .logoimatge{
+        width: 150px;
+    }
 
 }
 

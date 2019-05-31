@@ -12,56 +12,56 @@
     <link rel="stylesheet" href="{% static "registrat.css" %}">
 </head>
 <body>
-    {% block Header %}
-        <nav class="navbar navbar-expand-lg textnav">
-          <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+{% block Header %}
+    <nav class="navbar navbar-expand-lg textnav">
+        <a class="navbar-brand titlenav" href="{% url 'home' %}"><img src="../static/Logo.png" class="logoimatge"> {{ nom }}</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="{% url 'home' %}">Inici</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
-              </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'home' %}">Inici</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'quisom' %}">Qui som?   </a>
+                </li>
             </ul>
             <ul class="navbar-nav mr-right">
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'registrat' %}">Registra't</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{% url 'entra' %}">Entrar</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'registrat' %}">Registra't</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'entra' %}">Entrar</a>
+                </li>
             </ul>
-          </div>
-        </nav>
-    {% endblock %}
+        </div>
+    </nav>
+{% endblock %}
 
-    <div class="mybody">
-        <div class="containerbloc col-10">
-            <div class="escrit1 col-8">
-                <div class="Titol"> <h1>Registra't</h1> </div>
-            </div>
-            <div class="containerform w-70" align="center">
-                <form id="reistre-form"  method="post" action="" enctype="multipart/form-data" role="form">
-                    {% csrf_token %}
-                    <div class="definiciocamp">Usuari</div>
-                    {{ formulari.username }}
-                    <div class="definiciocamp">Contrassenya</div>
-                    {{ formulari.password1 }}
-                    <div class="definiciocamp">Repetir contrassenya</div>
-                    {{ formulari.password2 }}
-                    <div class="definiciocamp">Correu</div>
-                    {{ formulari.correu }}
-                    <div class="definiciocamp">Selecciona fitxer</div>
-                    {{ formulari.imatge }}<br>
-                    <button type="submit" class="btn-change2">Registra't</button>
+<div class="mybody">
+    <div class="containerbloc col-10">
+        <div class="escrit1 col-8">
+            <div class="Titol"> <h1>Registra't</h1> </div>
+        </div>
+        <div class="containerform w-70" align="center">
+            <form id="reistre-form"  method="post" action="" enctype="multipart/form-data" role="form">
+                {% csrf_token %}
+                <div class="definiciocamp">Usuari</div>
+                {{ formulari.username }}
+                <div class="definiciocamp">Contrassenya</div>
+                {{ formulari.password1 }}
+                <div class="definiciocamp">Repetir contrassenya</div>
+                {{ formulari.password2 }}
+                <div class="definiciocamp">Correu</div>
+                {{ formulari.correu }}
+                <div class="definiciocamp">Selecciona fitxer</div>
+                {{ formulari.imatge }}<br>
+                <button type="submit" class="btn-change2">Registra't</button>
             </form>
         </div>
     </div>
@@ -70,27 +70,27 @@
     {% block footer %}
         <div class="mifooter">
             <table>
-              <tr class="navtext">
-                <td colspan="2" id="textnav">Pots visitar</td>
-                <td colspan="2" id="textnav">Xarxes</td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
-                <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
-                <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
-                <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
-                <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
-                  <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
-                  <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
-              </tr>
-              <tr>
-                <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
-                  <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
+                <tr class="navtext">
+                    <td colspan="2" id="textnav">Pots visitar</td>
+                    <td colspan="2" id="textnav">Xarxes</td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'home' %}">Inici</a></td>
+                    <td><a class="nav-link" href="{% url 'descobreix' %}">Descobreix</a></td>
+                    <td><a href="https://www.instagram.com/?hl=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-instagram.svg" size="large"></ion-icon></a></td>
+                    <td><a href="https://www.facebook.com/" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-facebook.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'quisom' %}">Qui som?</a></td>
+                    <td><a class="nav-link" href="{% url 'registrat' %}">Registra't</a></td>
+                    <td><a href="https://twitter.com/?lang=es" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-twitter.svg" size="large"></ion-icon></a></td>
+                    <td><a href="#!" class="iconos"><ion-icon src="static/Icons/_ionicons_svg_logo-github.svg" size="large"></ion-icon></a></td>
+                </tr>
+                <tr>
+                    <td><a class="nav-link" href="{% url 'entra' %}">Entrar</a></td>
+                    <td><a class="nav-link" href="{% url 'home' %}">Doomus</a></td>
 
-              </tr>
+                </tr>
             </table>
         </div>
     {% endblock %}
